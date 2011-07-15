@@ -2,7 +2,7 @@
  
  speed project by Memo Akten. http://www.memo.tv
  build against openFrameworks pre-007, stable master as of 15/07/2011 - https://github.com/openframeworks/openFrameworks
- or download binary from BIN folder
+ or run app in BIN folder (you also need the DATA folder)
 
  Replaces all faces with Steve Jobs
  
