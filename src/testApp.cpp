@@ -76,7 +76,7 @@ void testApp::draw(){
 	for(int i = 0; i < haarFinder.blobs.size(); i++) {
 		ofRectangle cur = haarFinder.blobs[i].boundingRect;
 //		ofRect(cur.x, cur.y, cur.width, cur.height);
-        int iw = cur.width * 1.2;
+        int iw = cur.width * 1.3;
         img.draw(haarFinder.blobs[i].centroid, iw, iw * img.getHeight() / img.getWidth());
 	}
 
