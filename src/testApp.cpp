@@ -36,7 +36,7 @@ void testApp::setup(){
     
     colorImg.allocate(vidGrabber.getWidth(), vidGrabber.getHeight());
     greyImage.allocate(vidGrabber.getWidth(), vidGrabber.getHeight());
-    greyImageSmall.allocate(160, 120);
+    greyImageSmall.allocate(120, 90);
 
     haarFinder.setup("haarcascade_frontalface_alt2.xml");
     
@@ -76,7 +76,7 @@ void testApp::draw(){
 	for(int i = 0; i < haarFinder.blobs.size(); i++) {
 		ofRectangle cur = haarFinder.blobs[i].boundingRect;
 //		ofRect(cur.x, cur.y, cur.width, cur.height);
-        int iw = cur.width * 1.3;
+        int iw = cur.width * 1.4;
         img.draw(haarFinder.blobs[i].centroid, iw, iw * img.getHeight() / img.getWidth());
 	}
 
