@@ -2,7 +2,8 @@
  
  speed project by Memo Akten. http://www.memo.tv
  build against openFrameworks pre-007, stable master as of 15/07/2011 - https://github.com/openframeworks/openFrameworks
- 
+
+ Replaces all faces with Steve Jobs
  
  INSTALL ON APPLE STORES AS YOU SEE FIT. IT'S PERFECTLY LEGAL (don't quote me on that)
 
