@@ -1,10 +1,6 @@
 /*************
- 
- speed project by Memo Akten. http://www.memo.tv
- build against openFrameworks pre-007, stable master as of 15/07/2011 - https://github.com/openframeworks/openFrameworks
- or run app in BIN folder (you also need the DATA folder)
-
- Replaces all faces with Steve Jobs
+ Replaces all faces in live video feed from webcam, with Steve Jobs.
+ (Done in less than 1 hour with openFrameworks pre-007)
  
  INSTALL ON APPLE STORES AS YOU SEE FIT. IT'S PERFECTLY LEGAL (don't quote me on that)
 
@@ -14,5 +10,11 @@
  http://peoplestaringatcomputers.tumblr.com/
  http://en.wikipedia.org/wiki/People_Staring_at_Computers
  http://www.bbc.co.uk/news/technology-14080438
+
+ build source with openFrameworks pre-007, stable master as of 15/07/2011 - https://github.com/openframeworks/openFrameworks
+
+ or run the app found in the BIN folder (you also need the DATA folder)
+
+ speed project by Memo Akten. http://www.memo.tv
 
  ****************/
