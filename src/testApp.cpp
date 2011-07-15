@@ -7,7 +7,7 @@
  
  INSTALL ON APPLE STORES AS YOU SEE FIT. IT'S PERFECTLY LEGAL (don't quote me on that)
 
- content:
+ context:
  http://fffff.at/people-staring-at-computers/
  http://eyeteeth.blogspot.com/2011/07/feds-visit-artist-behind-people-staring.html
  http://peoplestaringatcomputers.tumblr.com/
@@ -81,4 +81,10 @@ void testApp::draw(){
 	}
 
     glPopMatrix();
+}
+
+
+//--------------------------------------------------------------
+void testApp::keyPressed(int key) {
+    ofToggleFullscreen();
 }

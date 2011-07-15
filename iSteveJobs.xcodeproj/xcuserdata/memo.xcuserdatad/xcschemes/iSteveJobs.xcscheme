@@ -37,7 +37,10 @@
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release">
-      <BuildableProductRunnable>
+      <PathRunnable
+         FilePath = "/Users/memo/Dropbox/lab/openFrameworks/git/apps_msa/memo/iSteveJobs/bin/iSteveJobs.app">
+      </PathRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
@@ -45,7 +48,7 @@
             BlueprintName = "iSteveJobs"
             ReferencedContainer = "container:iSteveJobs.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
